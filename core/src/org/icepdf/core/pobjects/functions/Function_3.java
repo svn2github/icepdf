@@ -123,7 +123,7 @@ public class Function_3 extends Function {
             }
             // bounds <= x < bounds b + 1, return function if true
             if (bounds[b] <= x[0] && x[0] < bounds[b + 1]) {
-                return encode(x, functions[b], b);
+                return encode(x, functions[b+1], b+1);
             }
         }
 
